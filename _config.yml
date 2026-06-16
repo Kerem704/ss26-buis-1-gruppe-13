@@ -1,0 +1,13 @@
+title: "Oldenburger Fahrradmanufaktur"
+description: "Weniger ist mehr – das urbane EcoFix"
+baseurl: "/ss26-buis-1-gruppe-13"
+url: ""
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
