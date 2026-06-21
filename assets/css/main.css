@@ -70,7 +70,7 @@ ul { list-style: none; }
 .hero__sub { font-size: 1rem; color: var(--c-ink-soft); max-width: 44ch; line-height: 1.75; margin-bottom: 2.5rem; }
 .hero__actions { display: flex; gap: 1rem; flex-wrap: wrap; }
 .hero__visual { position: relative; }
-.hero__img { width: 100%; aspect-ratio: 4/3; border-radius: 4px; overflow: hidden; }
+.hero__img { width: 100%; aspect-ratio: 16/9; border-radius: 4px; overflow: hidden; }
 .hero__img .img-placeholder { width: 100%; height: 100%; font-size: 0.8rem; }
 .hero__badge { position: absolute; background: var(--c-white); border: 1px solid var(--c-border); border-radius: 2px; padding: 0.6rem 1rem; font-size: 0.78rem; font-weight: 600; color: var(--c-cyan); box-shadow: 0 4px 20px rgba(0,0,0,0.08); white-space: nowrap; }
 .hero__badge:nth-child(2) { top: 1.5rem; right: -1rem; }
@@ -82,7 +82,7 @@ ul { list-style: none; }
 
 /* ---- ABOUT ---- */
 .about { padding: var(--sp) 2rem; max-width: var(--max-w); margin: 0 auto; display: grid; grid-template-columns: 56% 1fr; gap: 5rem; align-items: center; }
-.about__img { width: 100%; height: 500px; border-radius: 4px; overflow: hidden; }
+.about__img { width: 100%; aspect-ratio: 16/9; border-radius: 4px; overflow: hidden; }
 .about__img .img-placeholder { width: 100%; height: 100%; }
 .about__title { font-family: var(--f-display); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem; }
 .about__body { color: var(--c-ink-soft); line-height: 1.8; margin-bottom: 1rem; font-size: 0.93rem; }
@@ -108,7 +108,7 @@ ul { list-style: none; }
 /* ---- PRODUCT HERO ---- */
 .product-hero { background: var(--c-bg); padding: var(--sp) 2rem; }
 .product-hero__inner { max-width: var(--max-w); margin: 0 auto; display: grid; grid-template-columns: 56% 1fr; gap: 5rem; align-items: center; }
-.product-hero__img { width: 100%; height: 540px; border-radius: 4px; overflow: hidden; }
+.product-hero__img { width: 100%; aspect-ratio: 16/9; border-radius: 4px; overflow: hidden; }
 .product-hero__img .img-placeholder { width: 100%; height: 100%; }
 .product-hero__title { font-family: var(--f-display); font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 700; line-height: 1.1; margin-bottom: 1rem; }
 .product-hero__title em { color: var(--c-cyan); font-style: italic; }
