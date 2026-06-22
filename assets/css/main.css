@@ -158,6 +158,9 @@ ul { list-style: none; }
 .card__num { font-size: 0.72rem; font-weight: 700; color: var(--c-cyan); letter-spacing: 0.1em; margin-bottom: 1rem; }
 .card__title { font-size: 1rem; font-weight: 700; margin-bottom: 0.6rem; }
 .card__body { font-size: 0.85rem; color: var(--c-ink-soft); line-height: 1.7; }
+.standorte-layout { display: grid; grid-template-columns: 1fr 1.7fr; gap: 2rem; margin-top: 3rem; align-items: stretch; }
+.standorte-cards { display: flex; flex-direction: column; gap: 1.25rem; }
+.standorte-map { border-radius: 4px; overflow: hidden; }
 
 /* ---- KPI ROW ---- */
 .kpi-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; margin: 3rem 0; }
@@ -223,6 +226,7 @@ td:first-child { color: var(--c-ink); font-weight: 500; }
 @media (max-width: 700px) {
   .values__inner { grid-template-columns: 1fr; }
   .card-grid { grid-template-columns: 1fr; }
+  .standorte-layout { grid-template-columns: 1fr; }
   .footer__top { grid-template-columns: 1fr; }
   .nav__links.open { display: flex; flex-direction: column; position: fixed; inset: 0; background: var(--c-bg); justify-content: center; align-items: center; gap: 2rem; font-size: 1.3rem; z-index: 99; }
 }
