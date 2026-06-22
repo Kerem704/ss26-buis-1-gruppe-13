@@ -34,27 +34,29 @@ description: Die Oldenburger Fahrradmanufaktur – Wer wir sind, wie wir produzi
   <div class="section__inner">
     <p class="label">Standorte</p>
     <h2 class="section__title">International produziert.<br>Lokal verankert.</h2>
-    <div class="card-grid" style="margin-top:3rem;">
-      <div class="card reveal">
-        <p class="card__num">Hauptsitz</p>
-        <h3 class="card__title">Oldenburg, Deutschland</h3>
-        <p class="card__body">Geschäftsführung, Produktentwicklung, Qualitätssicherung und Endmontage (Scope 1 & 2). Hier laufen alle Fäden zusammen – von der Idee bis zum fertigen EcoFix.</p>
-        <a href="{{ '/nachhaltigkeit/' | relative_url }}" class="values__link" style="display:inline-block;margin-top:1rem;font-size:0.82rem;font-weight:700;color:var(--c-cyan);">Zum Nachhaltigkeitsbericht</a>
-      </div>
-      <div class="card reveal">
-        <p class="card__num">Produktionsstätte</p>
-        <h3 class="card__title">Águeda, Portugal</h3>
-        <p class="card__body">Rahmenfertigung im europäischen Spezialwerk. Im Herzen des "Bike Valley" fertigen wir unsere Rahmen aus 100% recyceltem Stahl mittels energieeffizienter, robotergestützter Schweißverfahren – für minimierte Scope-3-Emissionen.</p>
-      </div>
-      <div class="card reveal">
-        <p class="card__num">Veredelung</p>
-        <h3 class="card__title">Slowenien</h3>
-        <p class="card__body">Nachhaltige Pulverbeschichtung ohne Lösungsmittel. Die lösemittelfreie Beschichtung schützt den Rohrahmen optimal vor Korrosion und fängt Umweltbelastungen direkt in der vorgelagerten Lieferkette ab.</p>
-      </div>
+    <div class="standorte-layout">
+  <div class="standorte-cards">
+    <div class="card reveal">
+      <p class="card__num">Hauptsitz</p>
+      <h3 class="card__title">Oldenburg, Deutschland</h3>
+      <p class="card__body">Geschäftsführung, Produktentwicklung, Qualitätssicherung und Endmontage (Scope 1 & 2). Hier laufen alle Fäden zusammen – von der Idee bis zum fertigen EcoFix.</p>
+      <a href="{{ '/nachhaltigkeit/' | relative_url }}" class="values__link" style="display:inline-block;margin-top:1rem;font-size:0.82rem;font-weight:700;color:var(--c-cyan);">Zum Nachhaltigkeitsbericht</a>
     </div>
-    <div style="margin-top:3rem;" class="reveal">
-      <img src="{{ '/assets/images/manufaktur-map.png' | relative_url }}" alt="Standorte" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:4px;">
+    <div class="card reveal">
+      <p class="card__num">Produktionsstätte</p>
+      <h3 class="card__title">Águeda, Portugal</h3>
+      <p class="card__body">Rahmenfertigung im europäischen Spezialwerk. Im Herzen des "Bike Valley" fertigen wir unsere Rahmen aus 100% recyceltem Stahl mittels energieeffizienter, robotergestützter Schweißverfahren – für minimierte Scope-3-Emissionen.</p>
     </div>
+    <div class="card reveal">
+      <p class="card__num">Veredelung</p>
+      <h3 class="card__title">Slowenien</h3>
+      <p class="card__body">Nachhaltige Pulverbeschichtung ohne Lösungsmittel. Die lösemittelfreie Beschichtung schützt den Rohrahmen optimal vor Korrosion und fängt Umweltbelastungen direkt in der vorgelagerten Lieferkette ab.</p>
+    </div>
+  </div>
+  <div class="standorte-map reveal">
+    <img src="{{ '/assets/images/manufaktur-map.png' | relative_url }}" alt="Standorte" style="width:100%;height:100%;object-fit:cover;display:block;">
+  </div>
+</div>
   </div>
 </section>
 
